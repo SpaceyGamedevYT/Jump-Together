@@ -24,10 +24,12 @@ public class PauseMenu : MonoBehaviour
     {
         gamePaused = false;
         menu.SetActive(false);
+        AudioManager.instance.Play("press");
     }
 
     public void Leave()
     {
+        AudioManager.instance.Play("press");
         SceneManager.LoadScene("Menu Level Select");
     }
 }

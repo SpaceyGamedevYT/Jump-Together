@@ -14,6 +14,7 @@ public class PressurePad : MonoBehaviour
         {
             touchingPad = true;
             anim.SetTrigger("lower");
+            AudioManager.instance.Play("pad");
         }
     }
 

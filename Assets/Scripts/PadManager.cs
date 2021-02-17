@@ -7,6 +7,7 @@ public class PadManager : MonoBehaviour
 {
     public PressurePad red;
     public PressurePad blue;
+    public string nextLevel;
 
     void Update()
     {
@@ -18,6 +19,6 @@ public class PadManager : MonoBehaviour
 
     public void LoadLevelSelectScene()
     {
-        SceneManager.LoadScene("Menu Level Select");
+        SceneManager.LoadScene(nextLevel);
     }
 }

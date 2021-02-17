@@ -8427,6 +8427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966258695}
   - component: {fileID: 1966258694}
+  - component: {fileID: 1966258696}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -8461,6 +8462,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1966258696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966258693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c634d7dfcebc6b4ea461edb9c8d8bae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: press
+    clips:
+    - {fileID: 8300000, guid: 59dba456468a2ee4eb6ff27814eb9001, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
 --- !u!1001 &1966541373
 PrefabInstance:
   m_ObjectHideFlags: 0
