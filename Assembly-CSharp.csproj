@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\FragilePlatform.cs" />
+     <Compile Include="Assets\Scripts\LevelRestarter.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PadManager.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
