@@ -7,9 +7,9 @@ public class SceneLoader : MonoBehaviour
 {
     public string sceneName;
 
-    public void LoadScene()
+    public void LoadScene(string name)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(name);
         AudioManager.instance.Play("press");
     }
 }

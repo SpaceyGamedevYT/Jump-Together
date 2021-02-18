@@ -380,6 +380,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6211273288251677528, guid: 72b021f1b7db13043b2f363ef1ff80c7,
+        type: 3}
+      propertyPath: red
+      value: 
+      objectReference: {fileID: 625398474}
+    - target: {fileID: 6211273288251677528, guid: 72b021f1b7db13043b2f363ef1ff80c7,
+        type: 3}
+      propertyPath: blue
+      value: 
+      objectReference: {fileID: 301862427}
+    - target: {fileID: 6211273288251677529, guid: 72b021f1b7db13043b2f363ef1ff80c7,
+        type: 3}
+      propertyPath: menu
+      value: 
+      objectReference: {fileID: 1251635111}
     - target: {fileID: 6211273288251677533, guid: 72b021f1b7db13043b2f363ef1ff80c7,
         type: 3}
       propertyPath: m_Name
@@ -442,6 +457,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72b021f1b7db13043b2f363ef1ff80c7, type: 3}
+--- !u!114 &300948559 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6211273288251677529, guid: 72b021f1b7db13043b2f363ef1ff80c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 300948558}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebcabf0cb5d5a4d1790e4799c1409fc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &300948560 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6211273288251677534, guid: 72b021f1b7db13043b2f363ef1ff80c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 300948558}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8075b93e83d0da54ea9e668ba8ee6671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &301862425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -454,6 +493,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: blue
       objectReference: {fileID: 0}
+    - target: {fileID: 8170360426912587946, guid: 3d8eb5674dbfbd84eb43cb65abf6d42b,
+        type: 3}
+      propertyPath: playerSelect
+      value: 
+      objectReference: {fileID: 300948560}
     - target: {fileID: 8886401830787459084, guid: 3d8eb5674dbfbd84eb43cb65abf6d42b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -517,6 +561,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 301862425}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &301862427 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8170360427977609585, guid: 3d8eb5674dbfbd84eb43cb65abf6d42b,
+    type: 3}
+  m_PrefabInstance: {fileID: 301862425}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a768d17c1cb4717ac9a756fca0bb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &559689399
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,6 +755,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4731751692882355238, guid: 69cd1bd90572e1d4d8ab75d89caf4623,
+        type: 3}
+      propertyPath: playerSelect
+      value: 
+      objectReference: {fileID: 300948560}
     - target: {fileID: 5131385988452635716, guid: 69cd1bd90572e1d4d8ab75d89caf4623,
         type: 3}
       propertyPath: m_Name
@@ -712,6 +773,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 625398472}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &625398474 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4731751693096640648, guid: 69cd1bd90572e1d4d8ab75d89caf4623,
+    type: 3}
+  m_PrefabInstance: {fileID: 625398472}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a768d17c1cb4717ac9a756fca0bb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &890071179
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,7 +866,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 300948559}
         m_MethodName: Resume
         m_Mode: 1
         m_Arguments:
@@ -923,7 +996,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 300948559}
         m_MethodName: Leave
         m_Mode: 1
         m_Arguments:

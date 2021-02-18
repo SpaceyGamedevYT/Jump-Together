@@ -126,8 +126,20 @@ MonoBehaviour:
   - name: pad
     clips:
     - {fileID: 8300000, guid: 65fb3c2b81d84aa459de7923cf22318a, type: 3}
-    volume: 0.525
+    volume: 0.594
     pitch: 1.22
+    source: {fileID: 0}
+  - name: crack
+    clips:
+    - {fileID: 8300000, guid: 6ffb6eccd54564045ae2fc4285ddaf3b, type: 3}
+    volume: 0.55
+    pitch: 1
+    source: {fileID: 0}
+  - name: break
+    clips:
+    - {fileID: 8300000, guid: eaffe111c47bbb84cbb25890e9b7fb90, type: 3}
+    volume: 0.55
+    pitch: 1
     source: {fileID: 0}
 --- !u!114 &8718400577972613870
 MonoBehaviour:
