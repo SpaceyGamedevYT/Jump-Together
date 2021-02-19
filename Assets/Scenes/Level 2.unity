@@ -12311,6 +12311,11 @@ PrefabInstance:
       propertyPath: blue
       value: 
       objectReference: {fileID: 428476291}
+    - target: {fileID: 6211273288251677528, guid: 72b021f1b7db13043b2f363ef1ff80c7,
+        type: 3}
+      propertyPath: nextLevel
+      value: Level 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6211273288251677529, guid: 72b021f1b7db13043b2f363ef1ff80c7,
         type: 3}
       propertyPath: menu
