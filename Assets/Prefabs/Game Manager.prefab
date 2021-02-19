@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6211273288251677528}
   - component: {fileID: 6211273288251677529}
   - component: {fileID: 6211273288251677530}
+  - component: {fileID: 8718400577972613870}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -125,6 +126,30 @@ MonoBehaviour:
   - name: pad
     clips:
     - {fileID: 8300000, guid: 65fb3c2b81d84aa459de7923cf22318a, type: 3}
-    volume: 0.5
+    volume: 0.594
+    pitch: 1.22
+    source: {fileID: 0}
+  - name: crack
+    clips:
+    - {fileID: 8300000, guid: 6ffb6eccd54564045ae2fc4285ddaf3b, type: 3}
+    volume: 0.55
     pitch: 1
     source: {fileID: 0}
+  - name: break
+    clips:
+    - {fileID: 8300000, guid: eaffe111c47bbb84cbb25890e9b7fb90, type: 3}
+    volume: 0.55
+    pitch: 1
+    source: {fileID: 0}
+--- !u!114 &8718400577972613870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211273288251677533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190ff976d64b3ba4f806e06bba2c5414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

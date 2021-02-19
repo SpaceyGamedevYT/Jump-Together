@@ -1152,13 +1152,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1966258694}
         m_MethodName: LoadScene
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &274813602
@@ -2163,7 +2163,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 566823436}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1966258694}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level 2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &566823436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8426,8 +8437,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1966258695}
-  - component: {fileID: 1966258694}
   - component: {fileID: 1966258696}
+  - component: {fileID: 1966258694}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -8447,7 +8458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b718a46fce5419b9411d57a7cf5a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level 1
+  sceneName: 
 --- !u!4 &1966258695
 Transform:
   m_ObjectHideFlags: 0
